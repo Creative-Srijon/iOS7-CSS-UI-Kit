@@ -1,0 +1,32 @@
+/*
+# Table Views
+*/
+
+.tableview {}
+.tableview__item {
+	position: relative;
+	line-height: 44px;
+	font-size: 18px;
+	& + &:before {
+		display: list-item;
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 16px;
+		right: 0;
+		border-top: 1px solid #CCCCCC;
+	}
+}
+.tableview__item__target {
+	display: table;
+	width: 100%;
+	color: #000000;
+}
+.tableview__item__cell {
+	display: table-cell;
+	padding-left: 16px;
+	vertical-align: middle;
+	&:last-child {
+		padding-right: 16px;
+	}
+}

@@ -1,0 +1,30 @@
+/*
+# Segmented Controls
+*/
+
+$baseColor: #157dfa;
+
+.segmented {
+	display: table;
+	border-radius: 6px;
+  border: 1px solid $baseColor;
+	table-layout: fixed;
+  width: 100%;
+	font-size: 13px;
+}
+.segmented__item {
+  display: table-cell;
+  > a {
+  	display: block;
+  	width: 100%;
+  	line-height: 28px;
+  	text-align: center;
+  	color: $baseColor; 
+  }
+  &.is-active {
+  	background-color: $baseColor;
+	  a {
+	  	color: #FFFFFF;
+	  }
+  }
+}

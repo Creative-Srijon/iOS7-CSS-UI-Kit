@@ -1,0 +1,128 @@
+/*
+# Typography
+*/
+html {
+  font-family: "Helvetica Neue";
+}
+
+body {
+  background-color: #f6f5f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portrait {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+}
+
+/*
+# Color
+*/
+/*
+# Buttons
+*/
+/*
+# Date Pickers
+*/
+/*
+# Page Controls
+*/
+/*
+# Segmented Controls
+*/
+.segmented {
+  display: table;
+  border-radius: 6px;
+  border: 1px solid #157dfa;
+  table-layout: fixed;
+  width: 100%;
+  font-size: 13px;
+}
+
+.segmented__item {
+  display: table-cell;
+}
+.segmented__item > a {
+  display: block;
+  width: 100%;
+  line-height: 28px;
+  text-align: center;
+  color: #157dfa;
+}
+.segmented__item.is-active {
+  background-color: #157dfa;
+}
+.segmented__item.is-active a {
+  color: #FFFFFF;
+}
+
+/*
+# Sliders
+*/
+/*
+# Steppers
+*/
+/*
+# Switches
+*/
+/*
+# Text Fields
+*/
+/*
+# Switches
+*/
+/*
+# Alert Views
+*/
+/*
+# Navigation Bars
+*/
+/*
+# Search Bars
+*/
+/*
+# Tab Bars
+*/
+/*
+# Table Views
+*/
+.tableview__item {
+  position: relative;
+  line-height: 44px;
+  font-size: 18px;
+}
+.tableview__item + .tableview__item:before {
+  display: list-item;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 16px;
+  right: 0;
+  border-top: 1px solid #cccccc;
+}
+
+.tableview__item__target {
+  display: table;
+  width: 100%;
+  color: #000000;
+}
+
+.tableview__item__cell {
+  display: table-cell;
+  padding-left: 16px;
+  vertical-align: middle;
+}
+.tableview__item__cell:last-child {
+  padding-right: 16px;
+}
+
+/*
+# Text Views
+*/
+/*
+# Toolbars
+*/
